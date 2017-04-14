@@ -1,0 +1,12 @@
+{
+	"db_connection_string": "sms:sms@tcp(localhost:3306)/sms?charset=utf8&parseTime=True&loc=Local",
+	"url_base": "https://api.domain.com/v1/sms",
+	"url_message_create": "/messages",
+	"url_signin": "/auth/signin",
+	"user_name": "admin",
+	"password": "admin",
+	"sync_interval_seconds": 10,
+	"sync_with_server": false,
+	"saved_to_db": false,
+	"message_storage_threshold": 5
+}
